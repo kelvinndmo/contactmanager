@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Contacts from './components/contacts/Contacts';
 import { Provider } from './context';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import NotFound from './components/pages/NotFound';
 //Route - holds all of our routes
 //Switch - Have a default i.e not found page
